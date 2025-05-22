@@ -40,9 +40,7 @@ Python
 NumPy
 
 📁 Structure du projet
-pgsql
-Copier
-Modifier
+
 checkpoint-numpy/
 │
 ├── main.py           # Script principal contenant l'analyse NumPy
@@ -51,15 +49,9 @@ checkpoint-numpy/
 ▶️ Exécution
 Assurez-vous d'avoir installé NumPy :
 
-bash
-Copier
-Modifier
 pip install numpy
 Exécutez le fichier principal :
 
-bash
-Copier
-Modifier
 python main.py
 ✅ Résultats attendus
 Le programme affichera :
@@ -78,8 +70,7 @@ Tableau des notes supérieures à 75 (passing_grades)
 Pour extraire les données :
 
 python
-Copier
-Modifier
+
 grades[grades > 90]      # Pour les notes supérieures à 90
 grades[grades > 75]      # Pour les notes supérieures à 75
 np.mean(grades > 90) * 100  # Pourcentage d’étudiants > 90
